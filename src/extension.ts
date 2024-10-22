@@ -248,3 +248,5 @@ export function activate(context: vscode.ExtensionContext) {
 
 
 export function deactivate() {}
+
+//j'avoue c'est pas moi qui ai fais les commentaires
