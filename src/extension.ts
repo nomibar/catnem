@@ -250,8 +250,7 @@ export function activate(context: vscode.ExtensionContext) {
 export function deactivate() {}
 
 
-<<<<<<< HEAD
+
 //j'avoue c'est pas moi qui ai fais les commentaires
 
-=======
->>>>>>> a9e98a76468a947c8e987d3c2ad0cc6eecb6af35
+
