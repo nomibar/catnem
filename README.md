@@ -45,11 +45,11 @@ Say hello to the world with this simple command.
    - `catnem.countDiagnostics` - Count and display the number of errors and warnings in the current file.
    - `catnem.shoxcat` - Show alternating cat images every 2 seconds.
 
-![Usage image](/src/CATNEM%20EXTENTION.png)
+![Usage image](/assets/CATNEM%20EXTENTION.png)
 
 ## Demo Video
 
-![Demo exemple](/src/exemple.gif)
+![Demo exemple](/assets/exemple.gif)
 
 ## Requirements
 

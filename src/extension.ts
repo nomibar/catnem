@@ -49,19 +49,19 @@ export function activate(context: vscode.ExtensionContext) {
 	
 				// Then define the image paths
 				const imagePath1 = vscode.Uri.file(
-					vscode.Uri.joinPath(context.extensionUri, 'src', 'cat1.jpg').fsPath
+					vscode.Uri.joinPath(context.extensionUri, 'src', '../assets/cat1.jpg').fsPath
 				);
 	
 				const imagePath2 = vscode.Uri.file(
-					vscode.Uri.joinPath(context.extensionUri, 'src', 'cat2.jpg').fsPath
+					vscode.Uri.joinPath(context.extensionUri, 'src', '../assets/cat2.jpg').fsPath
 				);
 	
 				const imagePath3 = vscode.Uri.file(
-					vscode.Uri.joinPath(context.extensionUri, 'src', 'cat3.jpg').fsPath
+					vscode.Uri.joinPath(context.extensionUri, 'src', '../assets/cat3.jpg').fsPath
 				);
 	
 				const imagePath4 = vscode.Uri.file(
-					vscode.Uri.joinPath(context.extensionUri, 'src', 'cat4.jpg').fsPath
+					vscode.Uri.joinPath(context.extensionUri, 'src', '../assets/cat4.jpg').fsPath
 				);
 	
 				// Define the interface for image information
@@ -170,19 +170,19 @@ export function activate(context: vscode.ExtensionContext) {
 	
 				// Chemins vers les images
 				const imagePath1 = vscode.Uri.file(
-					vscode.Uri.joinPath(context.extensionUri, 'src', 'cat1.jpg').fsPath
+					vscode.Uri.joinPath(context.extensionUri, 'src', '../assets/cat1.jpg').fsPath
 				);
 	
 				const imagePath2 = vscode.Uri.file(
-					vscode.Uri.joinPath(context.extensionUri, 'src', 'cat2.jpg').fsPath
+					vscode.Uri.joinPath(context.extensionUri, 'src', '../assets/cat2.jpg').fsPath
 				);
 				const imagePath3 = vscode.Uri.file(
-					vscode.Uri.joinPath(context.extensionUri, 'src', 'cat3.jpg').fsPath
+					vscode.Uri.joinPath(context.extensionUri, 'src', '../assets/cat3.jpg').fsPath
 				);
 				
 				
 				const imagePath4 = vscode.Uri.file(
-					vscode.Uri.joinPath(context.extensionUri, 'src', 'cat4.jpg').fsPath
+					vscode.Uri.joinPath(context.extensionUri, 'src', '../assets/cat4.jpg').fsPath
 				);
 				const imageUri1 = panel.webview.asWebviewUri(imagePath1);
 				const imageUri2 = panel.webview.asWebviewUri(imagePath2);
